@@ -23,6 +23,11 @@ pipeline {
     // }
     // This is build section
     stages {
+        stage("cleanws"){
+            steps{
+                cleanWs()
+            }
+        }
         stage('Init') {
             steps {
                 script{
