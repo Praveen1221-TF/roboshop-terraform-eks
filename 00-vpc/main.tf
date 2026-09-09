@@ -1,5 +1,5 @@
 module "vpc" {
-    source = "git::https://github.com/Praveen1221-TF/roboshop-terraform-eks.git//modules/vpc?ref=main"
+    source = "git::https://github.com/daws-86s/terraform-aws-vpc.git?ref=main"
     # VPC
     vpc_cidr = var.vpc_cidr
     project_name = var.project_name
