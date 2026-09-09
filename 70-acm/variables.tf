@@ -7,9 +7,9 @@ variable "environment" {
 }
 
 variable "domain_name" {
-    default = "daws86s.fun"
+    default = "practicedev.shop"
 }
 
 variable "zone_id" {
-    default = "Z0948150OFPSYTNVYZOY"
+    default = "Z0484880TU6HA0H1F3WH"
 }
